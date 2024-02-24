@@ -29,6 +29,7 @@ main {
   grid-template-columns: 1fr 1fr;
   column-gap: 55px;
   padding: 15px 0;
+  margin: auto 0;
 }
 .informations {
   display: flex;
@@ -64,12 +65,12 @@ main {
   color: #fff;
   background-color: var(--soft-magenta);
 }
-.social {
+footer nav ul {
   display: flex;
   justify-content: flex-end;
   gap: 20px;
 }
-.social a {
+footer nav a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,7 +82,7 @@ main {
   border-radius: 50%;
   transition: 0.3s;
 }
-.social a:hover {
+footer nav li a:hover {
   color: var(--soft-magenta);
   border: 1px solid var(--soft-magenta);
 }
